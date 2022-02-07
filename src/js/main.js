@@ -1,7 +1,7 @@
 fetch("https://golden-whispering-show.glitch.me")
     .then(function(file){return file.json()})
     .then(function(file){
-        console.log(file)
+        console.log(file);
         file.forEach(element => {
             let advertBlock = document.createElement("div");
             // document.querySelector(".blocks").append(advertBlock);
