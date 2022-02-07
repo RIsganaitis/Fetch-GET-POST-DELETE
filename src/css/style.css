@@ -1,0 +1,16 @@
+.blocks{
+    display: flex;
+}
+img {
+    max-width: 200px;
+    /* max-height: 200px; */
+}
+.blocks div{
+    text-align: center;
+    border: 1px solid grey;
+    margin: 5px;
+}
+.blocks div p:nth-child(3){
+    color: red;
+    font-size: 150%;
+}
